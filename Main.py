@@ -10,6 +10,7 @@ if input == "1":
     start_time = time.time()
 
     '''Variable that saves all the leaves of the two trees we want to calculate the distance for.'''
+    '''To do: modify this list when generating new trees.'''
     all_leaves = ["a", "b", "c", "x", "y", "z"]
 
     '''Generation of the two trees.'''
@@ -46,6 +47,7 @@ elif input == "2":
     leaves_set_to_check = {'x'}
 
     '''Variable that saves all the leaves of the two trees we want to calculate the distance for.'''
+    '''To do: modify this list when generating new trees.'''
     all_leaves = ["x", "a", "b", "c", "d", "y", "j", "k"]
 
     '''Generation of the two trees.'''
