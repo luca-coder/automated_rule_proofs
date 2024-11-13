@@ -1,7 +1,8 @@
 import Tree
 from Tree import TreeNode
 
-
+'''The functions generate_tree and generate_tree1 have the scope of generating the two trees the calculations
+will be carried out on. To modify the structure of the trees, modify the code of these two functions.'''
 def generate_tree():
     """
     Function to generate the first binary tree that represent a phylogenetic tree.
